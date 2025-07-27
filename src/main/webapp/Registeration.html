@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hostel Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>SANCHO'S HOSTEL</h2>
+    <form  action="register" id="registerForm" method="post">
+      <input type="text" placeholder="StudentName" name="StudentName" required>
+      <input type="email" placeholder="Email" name="Email" required>
+      <input type="number" placeholder="PhoneNumber" name="PhoneNumber" required pattern="[0-9]{10}">
+      <input type="text" placeholder="Collegename" name="Collegename" required>
+      <input type="text" placeholder="Classname" name="ClassName" required>
+      <textarea placeholder="Address" name="Address" required></textarea>
+      <input type="password" placeholder="New Password" id="newpass" name="newpass" required>
+      <input type="password" placeholder="Confirm Password" id="confirmpass" name="confirmpass" required>
+      <button type="submit">Register</button>
+    </form>
+    <p>Already registered? <a href="login.html">Login here</a></p>
+  </div>
+
+
+</body>
+</html>
