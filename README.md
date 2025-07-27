@@ -1,4 +1,3 @@
-![Hostel Management Banner](https://your-image-link.com/banner.png)
 # 🏨 Hostel Management System
 
 This is a simple web-based Hostel Management System created to demonstrate my knowledge of **JSP**, **Servlets**, **JDBC**, **HTML/CSS**, and **web application development in Java**.
@@ -49,11 +48,6 @@ src/
 ├── poha.jpg
 ├── rice.jpg
 └── script.js
-
-pgsql
-Copy code
-
----
 
 ## 🔁 How the Project Works
 
